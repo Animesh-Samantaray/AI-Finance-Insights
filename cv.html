@@ -6,20 +6,23 @@
     <title>AI Finance Insights</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
     <div class="container mx-auto px-4 py-8">
         <!-- Header -->
         <header class="text-center mb-12 ">
-            <div class="flex items-center justify-center mb-4">
+            <div class="flex items-center justify-center mb-4 ml-[400px]">
                 <svg class="w-12 h-12 text-indigo-600 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313-12.454z"></path>
                     <path d="M17.5 11a4.5 4.5 0 1 0 0 9a4.5 4.5 0 0 0 0-9z"></path>
                     <path d="M3 3l18 18"></path>
                 </svg>
-                <h1 class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">
+                <h1 class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600 ">
                     AI Finance Insights
                 </h1>
+                <button class =" report h-[50px] w-[50px] bg-blue-500 mb-[20px] ml-[530px] rounded-[50%] hover:bg-blue-600 text-2xl ml-[40px]  "><a href="India_Inflation_All_Years .xlsx"><i class="fa-regular fa-circle-down w-8"></i></a></button>
+
             </div>    
         </header>
 
@@ -37,7 +40,7 @@
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <!-- Growth Forecast -->
-                <div class="bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-lg transform hover:scale-105 transition-transform duration-300">
+                <div class="bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-lg transform hover:scale-105 transition-transform duration-300 ">
                     <div class="flex items-center mb-3">
                         <svg class="w-5 h-5 text-indigo-600 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path>
@@ -49,7 +52,7 @@
                         <svg class="w-4 h-4 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M7 17l9.2-9.2M17 17V7H7"></path>
                         </svg>
-                        <span class="text-sm font-medium">View Details</span>
+                        <a href="Growth_Forecast_2025.pdf"><span class="text-sm font-medium cursor-pointer">View Details</span></a>
                     </div>
                 </div>
 
@@ -66,7 +69,8 @@
                         <svg class="w-4 h-4 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M7 17l9.2-9.2M17 17V7H7"></path>
                         </svg>
-                        <span class="text-sm font-medium">View Details</span>
+                        <a href="Stable Risk Analyst for Investment Environment.pdf"><span class="text-sm font-medium cursor-pointer">View Details</span></a>
+
                     </div>
                 </div>
 
@@ -83,11 +87,15 @@
                         <svg class="w-4 h-4 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M7 17l9.2-9.2M17 17V7H7"></path>
                         </svg>
-                        <span class="text-sm font-medium">View Details</span>
+                        <a href="GDP_CPI_Sectoral_Outlook_Enhanced.pdf"><span class="text-sm font-medium cursor-pointer">View Details</span></a>
+
                     </div>
                 </div>
             </div>
         </div>
+      
+        <button class =" ft h-[60px] w-[400px] bg-blue-500 mb-[20px] ml-[530px] rounded-md hover:bg-blue-600 text-2xl "> ASK AI</button>
+        
 
         <!-- Main Dashboard -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -172,6 +180,8 @@
                         <li>AI adoption in manufacturing could boost productivity by 15%</li>
                     </ul>
                 </div>
+
+              
                 
                 <div class="bg-indigo-50 p-4 rounded-lg mb-6">
                     <h4 class="text-lg font-semibold text-indigo-800 mb-2">AI Market Sentiment Analysis</h4>
@@ -182,7 +192,9 @@
             </div>
         </div>
         <footer>
-            <div class ="h-[30px] px-[400px] py-[50px] flex items-center justify-center bg-gray-200 rounded-md "> I  AM FOOTER</div>
+            <div class ="h-[20px] px-[400px] py-[40px] flex items-center justify-center bg-gray-400 rounded-md text-2xl mt-[10px] "> 
+                © All rights reserved 2025
+            </div>
         </footer>
     </div>
     
